@@ -18,3 +18,10 @@ body {
     color: azure;
 }
 
+
+/* For all main section containers like left section container and right section container */
+.content-palet {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}

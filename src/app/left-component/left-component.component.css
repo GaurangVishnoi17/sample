@@ -1,9 +1,3 @@
-.content-palet {
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-}
-
 .top-bar {
     height: 10%;
 }
@@ -27,18 +21,6 @@
 
 .bottom-content {
     height: 30%;
-}
-
-.design-palet {
-    border: 1px sold black;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #144b9d;
-    z-index: -1;
 }
 
 .greet-title {
@@ -80,40 +62,4 @@
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
-}
-
-.texture-div-top {
-    position: absolute;
-    transform: rotate(39deg);
-    z-index: -1;
-    top: -10.5rem;
-    right: .5rem;
-    height: 22rem;
-    width: 30rem;
-    background: -webkit-linear-gradient(135deg, hsla(216, 78%, 40%, 1) 58%, hsla(216, 82%, 63%, 1) 99%);
-    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1758B7", endColorstr="#5592EE", GradientType=1); */
-}
-
-.texture-div-mid {
-    width: 44rem;
-    height: 100rem;
-    position: absolute;
-    transform: rotate(129deg);
-    z-index: -1;
-    right: .5rem;
-    top: 0rem;
-    background: -webkit-linear-gradient(135deg, hsla(216, 78%, 40%, 1) 58%, hsla(216, 82%, 63%, 1) 99%);
-    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1758B7", endColorstr="#5592EE", GradientType=1); */
-}
-
-.texture-div-bottom {
-    width: 21rem;
-    height: 25rem;
-    position: absolute;
-    transform: rotate(129deg);
-    z-index: -1;
-    top: 48rem;
-    right: 12.5rem;
-    background: -webkit-linear-gradient(360deg, hsla(216, 75%, 43%, 1) 58%, rgb(53, 115, 207) 99%);
-    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1B5CBF", endColorstr="#3B5985", GradientType=1); */
 }

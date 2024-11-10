@@ -1,24 +1,102 @@
-.main-container{
+.main-container {
     height: 100%;
     width: 100%;
     display: flex;
-}
-
-.left-section{
-    width: 37%;
-    height: 100%;
     position: relative;
 }
-.right-section{
-    width: 63%;
-    height: 100%;
-    background-color: whitesmoke;
+
+.combined-section-box {
+    display: flex;
+    width: 100vw;
 }
-.sidebar-section{
+
+.sidebar-in-action {
+    width: calc(100vw - 125px);
+}
+
+.left-section {
+    width: 40%;
+    height: 100%;
+    /* position: relative; */
+}
+
+.right-section {
+    width: 60%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+}
+
+.sidebar-section {
     width: 125px;
     height: 100%;
     position: fixed;
+    transition: transform .3s cubic-bezier(.05, .74, .2, .99);
+    transform: translate(100%);
     top: 0;
     right: 0;
     background-color: #2a3344;
+}
+
+.sidebar-active {
+    transform: translate(0);
+}
+
+.design-palet {
+    border: 1px sold black;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #144b9d;
+    z-index: -1;
+}
+
+.texture-div-1 {
+    position: absolute;
+    transform: rotate(39deg);
+    z-index: -1;
+    top: -8.5rem;
+    left: .5rem;
+    height: 22rem;
+    width: 30rem;
+    background: -webkit-linear-gradient(135deg, hsla(216, 78%, 40%, 1) 58%, hsla(216, 82%, 63%, 1) 99%);
+    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1758B7", endColorstr="#5592EE", GradientType=1); */
+}
+
+.texture-div-2 {
+    width: 44rem;
+    height: 100rem;
+    position: absolute;
+    transform: rotate(129deg);
+    z-index: -1;
+    left: .5rem;
+    top: 13rem;
+    background: -webkit-linear-gradient(135deg, hsla(216, 78%, 40%, 1) 58%, hsla(216, 82%, 63%, 1) 99%);
+    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1758B7", endColorstr="#5592EE", GradientType=1); */
+}
+
+.texture-div-3 {
+    width: 21rem;
+    height: 25rem;
+    position: absolute;
+    transform: rotate(129deg);
+    z-index: -1;
+    top: 48rem;
+    left: 10.5rem;
+    background: -webkit-linear-gradient(360deg, hsla(216, 75%, 43%, 1) 58%, rgb(53, 115, 207) 99%);
+    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1B5CBF", endColorstr="#3B5985", GradientType=1); */
+}
+
+.texture-div-4 {
+    position: absolute;
+    transform: rotate(39deg);
+    z-index: -1;
+    top: 19.5rem;
+    left: 31.5rem;
+    height: 22rem;
+    width: 37rem;
+    background: -webkit-linear-gradient(135deg, hsla(216, 78%, 40%, 1) 58%, hsla(216, 78%, 40%, 1) 58%);
+    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#1758B7", endColorstr="#5592EE", GradientType=1); */
 }
