@@ -1,0 +1,61 @@
+.texture-div-5 {
+    position: absolute;
+    transform: rotate(39deg);
+    z-index: 0;
+    height: 30rem;
+    left: 4rem;
+    width: 41rem;
+    border: 2px solid whitesmoke;
+    transition: all .3s ease-in-out;
+    top: -17rem;
+}
+
+.texture-div-5:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+/* Navigation option container for landing page */
+.nav-btn-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.nav-btn-border {
+    position: absolute;
+    bottom: 8.5rem;
+    right: 7.5rem;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    transform: rotate(-39deg);
+    transition: all .3s ease-in-out;
+}
+
+.nav-btn {
+    width: fit-content;
+    padding: .7rem;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-weight: 500;
+    font-size: 2.2rem;
+    border: none;
+}
+
+.btn-underline {
+    width: 0px;
+    height: 2px;
+    transition: all .3s ease-in-out;
+    background-color: white;
+
+}
+
+.texture-div-5:hover .btn-underline {
+    width: 100%;
+}
+
+.texture-div-5:hover .nav-btn-border {
+    transform: rotate(-39deg) scale(1.1);
+}
