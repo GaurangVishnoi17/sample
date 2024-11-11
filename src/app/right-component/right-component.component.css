@@ -10,8 +10,22 @@
     top: -17rem;
 }
 
-.texture-div-5:hover {
+.texture-div-5:hover,
+.texture-div-6:hover {
     box-shadow: 0 0 10px #fff;
+    transform: rotate(39deg) scale(1.03);
+}
+
+.texture-div-6 {
+    position: fixed;
+    transform: rotate(39deg);
+    z-index: 0;
+    height: 38rem;
+    right: -29rem;
+    width: 49rem;
+    border: 2px solid whitesmoke;
+    transition: all .3s ease-in-out;
+    top: 15rem;
 }
 
 /* Navigation option container for landing page */
@@ -21,15 +35,25 @@
     position: relative;
 }
 
-.nav-btn-border {
+
+.nav-btn-outer {
     position: absolute;
-    bottom: 8.5rem;
-    right: 7.5rem;
     display: flex;
     width: fit-content;
     flex-direction: column;
     transform: rotate(-39deg);
     transition: all .3s ease-in-out;
+}
+
+/* Positioning for nav items */
+.texture-div-5 .nav-btn-outer {
+    bottom: 8.5rem;
+    right: 7.5rem;
+}
+
+.texture-div-6 .nav-btn-outer {
+    top: 25rem;
+    left: 7rem;
 }
 
 .nav-btn {
@@ -52,10 +76,12 @@
 
 }
 
-.texture-div-5:hover .btn-underline {
+.texture-div-5:hover .btn-underline,
+.texture-div-6:hover .btn-underline {
     width: 100%;
 }
 
-.texture-div-5:hover .nav-btn-border {
+.texture-div-5:hover .nav-btn-outer,
+.texture-div-6:hover .nav-btn-outer {
     transform: rotate(-39deg) scale(1.1);
 }
