@@ -1,19 +1,13 @@
 .texture-div-5 {
-    position: absolute;
+    position: fixed;
     transform: rotate(39deg);
     z-index: 0;
     height: 30rem;
-    left: 4rem;
+    right: 24rem;
     width: 41rem;
     border: 2px solid whitesmoke;
     transition: all .3s ease-in-out;
     top: -17rem;
-}
-
-.texture-div-5:hover,
-.texture-div-6:hover {
-    box-shadow: 0 0 10px #fff;
-    transform: rotate(39deg) scale(1.03);
 }
 
 .texture-div-6 {
@@ -26,6 +20,25 @@
     border: 2px solid whitesmoke;
     transition: all .3s ease-in-out;
     top: 15rem;
+}
+
+.texture-div-7 {
+    position: fixed;
+    transform: rotate(39deg);
+    z-index: 0;
+    height: 32rem;
+    right: 19rem;
+    width: 31rem;
+    border: 2px solid whitesmoke;
+    transition: all .3s ease-in-out;
+    top: 48rem;
+}
+
+.texture-div-5:hover,
+.texture-div-6:hover,
+.texture-div-7:hover {
+    box-shadow: 0 0 10px #fff;
+    transform: rotate(39deg) scale(1.03);
 }
 
 /* Navigation option container for landing page */
@@ -45,17 +58,6 @@
     transition: all .3s ease-in-out;
 }
 
-/* Positioning for nav items */
-.texture-div-5 .nav-btn-outer {
-    bottom: 8.5rem;
-    right: 7.5rem;
-}
-
-.texture-div-6 .nav-btn-outer {
-    top: 25rem;
-    left: 7rem;
-}
-
 .nav-btn {
     width: fit-content;
     padding: .7rem;
@@ -73,15 +75,32 @@
     height: 2px;
     transition: all .3s ease-in-out;
     background-color: white;
+}
 
+/* Positioning for nav items */
+.texture-div-5 .nav-btn-outer {
+    bottom: 8.5rem;
+    right: 7.5rem;
+}
+
+.texture-div-6 .nav-btn-outer {
+    top: 25rem;
+    left: 7rem;
+}
+
+.texture-div-7 .nav-btn-outer {
+    top: 5rem;
+    left: 4rem;
 }
 
 .texture-div-5:hover .btn-underline,
-.texture-div-6:hover .btn-underline {
+.texture-div-6:hover .btn-underline,
+.texture-div-7:hover .btn-underline {
     width: 100%;
 }
 
 .texture-div-5:hover .nav-btn-outer,
-.texture-div-6:hover .nav-btn-outer {
+.texture-div-6:hover .nav-btn-outer,
+.texture-div-7:hover .nav-btn-outer {
     transform: rotate(-39deg) scale(1.1);
 }
