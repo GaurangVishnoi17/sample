@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { LeftComponentComponent } from './left-component/left-component.component';
 import { RightComponentComponent } from './right-component/right-component.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     LeftComponentComponent,
-    RightComponentComponent
+    RightComponentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
